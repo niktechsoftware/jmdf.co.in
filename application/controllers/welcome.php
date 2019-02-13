@@ -2,66 +2,60 @@
 
 class Welcome extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
+	
 	public function index()
 	{
 		$this->load->view('welcome_message');
 	}
-	
-	public function admissionForm()
+
+	public function startup_business_idea()
 	{
-		$this->load->view('admissionForm');
+		$this->load->view('startup_business_idea');
 	}
-	public function about()
+	public function jobapply()
 	{
-		$this->load->view('about');
+	    $this->load->view('jobapply');
 	}
-	public function gallery()
+	public function enquiryform()
 	{
-		$this->load->view('gallery');
+	    $this->load->view('enquiry');
 	}
-	public function enquiryForm()
+    public function contact_us()
+    {
+        
+          $this->load->view('contact_us');
+    }
+    public function photo_gallery()
+    {
+        
+         $this->load->view('photo_gallery');
+    }
+
+	public function small_industry()
 	{
-		$this->load->view('enquiryForm');
+		$this->load->view('small_industry');
 	}
-	public function managementFaculity()
+
+	public function business_format()
 	{
-		$this->load->view('managementFaculity');
+		$this->load->view('business_format');
 	}
-	public function mission()
+
+	public function history()
 	{
-		$this->load->view('mission');
+		$this->load->view('history');
 	}
-	public function businessPlan()
+
+    public function vission_mission()
 	{
-		$this->load->view('businessPlan');
+		$this->load->view('vision_mission');
 	}
-	public function amount()
+
+	public function meaning_subsidy()
 	{
-		$this->load->view('amount');
+		$this->load->view('meaning_subsidy');
 	}
-	public function commission()
-	{
-		$this->load->view('commission');
-	}
-	public function empcommission()
-	{
-		$this->load->view('empcommission');
-	}
+
 }
 
 /* End of file welcome.php */

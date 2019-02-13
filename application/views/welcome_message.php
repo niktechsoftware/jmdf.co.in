@@ -1,599 +1,323 @@
-<?php $this->load->view("header");?>
 
-                            <div class="container">
-                                <div class="vc_row wpb_row vc_row-fluid mg-bottom-10">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="course-search simple style01 p-bg">
-                                                    <div class="title-wrap p-font p-bg-dark">
-                                                        <div class="title">
-                                                            <span>  JMD</span> <span>OFFERED</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="keyword-wrap" id="56cbfeacc4686" style="top: 5px;">
-                                                        <div class="keyword">
-                                                            <div class="container">
+<?php $this->load->view('head');?>
+<body id="top" Style="font-size:125%;">
+<form name="form1" method="post" action="./FoodPortal.aspx" id="form1">
+<div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
 
-                                                                <div class="col-xs-6 col-md-2 col-lg-2">
+        
+    <?php $this->load->view('header');?>
+    <?php $this->load->view('navbar');?>
+        <div class="clearfix">
+        </div>
+        <div class="redline">
+        </div>
+        <div class="clearfix">
+        </div>
+        <div id="main" class="container-fluid top_padding">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="csslider1 autoplay ">
+                        <input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="" />
+                        <ul>
+                            
+                             <li class="cs_skeleton" style="">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-0.jpg" alt="" style="width: 100%;" />
+                            </li>
+                            <li class="num0 img slide">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-1.jpg" alt="" />
+                            </li>
+                            <li class="num1 img slide">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-2.jpg" alt="" />
+                            </li>
+                            <li class="num2 img slide">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-3.jpg" alt="" />
+                            </li>
+                            <li class="num3 img slide">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-0.jpg" alt="" />
+                            </li>
+                            <li class="num4 img slide">
+                                <img src="<?php echo base_url();?>assets/Res_Images/slide-2.jpg" alt="" />
+                            </li>
 
-                                                                    <p class='padding-zerro'><a class='liststyle-class' href="#">Business Loan</a></p>
-                                                                   
-                                                                </div>
 
-                                                                <div class="col-xs-6 col-md-2 col-lg-2">
-
-
-                                                                    <p class='padding-zerro'><a class='liststyle-class' href="#">Simple Loan</a></p>
-                                                                     </div>
-
-
-                                                                <div class="col-xs-6 col-md-2 col-lg-2">
-
-
-                                                                    <p class='padding-zerro'><a class='liststyle-class' href="#">ANPS Yojana</a></p>
-                                                                    <!-- <p class='padding-zerro'><a class='liststyle-class' href="Bareilly-Training/bachelors-of-education.html">B.ED</a></p>-->
-                                                                </div>
-
-
-
-                                                                <div class="col-xs-6 col-md-2 col-lg-2">
-
-
-
-                                                                    <p class='padding-zerro'><a class='liststyle-class' href='Bareilly-Pharmacy/master-in-Pharmacy.html'>Other Yojana</a></p>  </div>
-
-
-
-
-
-
-                                                            </div>
-
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-2 col-md-2">
+                    <ul id="slideshow">
+                        <li>
+                            <img src="<?php echo base_url();?>assets/Res_Images/KARMENDRA_SACHDEVA.png" class="minister_image img-circle" alt="" style="padding-top: 0px !important;" />
+                            <p class="desc">
+                                KARMENDRA SACHDEVA
+                            </p>
+                        </li>
+                        <li>
+                            <img src="<?php echo base_url();?>assets/Res_Images/KARMENDRA_SACHDEVA.png" class="minister_image1 img-circle" alt="" />
+                            <p class="desc">
+                                KARMENDRA SACHDEVA
+                            </p>
+                        </li>
+                        <li>
+                            <img src="<?php echo base_url();?>assets/Res_Images/KARMENDRA_SACHDEVA.png" class="minister_image1 img-circle" alt="" style="padding-top: 0px !important;"/>
+                            <p class="desc">
+                                KARMENDRA SACHDEVA
+                            </p>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="yellowlineNote">
+                    </div>
+                    <div class="gray_box fo_sz4 fo_gray" style="text-align: center">
+                        <strong>
+                            Notifications
+                        </strong>
+                        
+                    </div>
+                    <div class="tab-pane" style="padding-left: 5px; padding-right: 5px;">
+                        <marquee class="marquee" direction="up" scrollamount="2" onmouseover="this.stop()"
+                            onmouseout="this.start()">
+                               <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
                                 </div>
-                            </div>
-                            <div class="container">
-                                <div class="vc_row wpb_row vc_row-fluid mg-bottom-40">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="heading color-dark text-center mg-top-30 mg-bottom-10">
-
-                                                    <h2 class="heading-color fs-38">JMD Finance Ltd.</h2>
-                                                    <p class="fs-14">JMD GROUP</p>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <div class="posts-wrap">
-                                                            <div class="content container">
-
-                                                                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                                                                    <div class="dexp-animate animated fadeInUp border-1px " data-animate="fadeInUp" data-animate-delay="0">
-                                                                        <h3 class='heading'>Welcome To JMD Finance Ltd.</h3>
-                                                                        <p>
-                                                                            <img src='<?php echo base_url();?>assets/images/about-college.jpg' id='about-us-img' />I take this opportunity to thank our valued customers, whose continued patronage and confidence in our products inspires us to extend the best of services and enables us to provide value for their money. Being dedicated to taking Electronics, Energy and Information Technology to rural areas, we are focused at addressing the needs of our customers through rugged, efficient, reliable and economic milk analysis and automation solutions and products, in line with the world's best, while maintaining continuous interaction with them to assess their emerging requirement, so as to be ready when the needs arise.
-                                                                            <br /><a class='about-us-readmore-btn' href="#">read more</a>
-                                                                        </p>
-
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-                                                                    <div class="dexp-animate animated fadeInUp border-1px" data-animate="fadeInUp" data-animate-delay="0">
-                                                                        <h4 class='heading'>JMD Branches</h4>
-                                                                        <ul>
-Bihar</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance BHABHUA</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance MOHANIA</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance RAMGARH</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance NUON</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance CHAUSA</a></li>
-                                                                        </ul>
-                                                                        <h4 class='heading' style='margin-top:5px;'>JMD Finance UP</h4>
-                                                                        <ul>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance GHAZIPUR</a></li>
-                                                                            <li id='liststyle-class'><a href="#" target="_blank">JMD Finance JANGIPUR</a></li>
-                                                                             <li id='liststyle-class'><a href="#" target="_blank">JMD Finance JAKHANIAN</a></li>
-                                                                              <li id='liststyle-class'><a href="#" target="_blank">JMD Finance ZAMANIA</a></li>
-                                                                               <li id='liststyle-class'><a href="#" target="_blank">JMD Finance BALLIA</a></li>
-                                                                                <li id='liststyle-class'><a href="#" target="_blank">JMD Finance GADWAR</a></li>
-                                                                                 <li id='liststyle-class'><a href="#" target="_blank">JMD Finance RATSAR</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div><!-- end posts-wrap -->
-                                                    </div><!-- end col -->
-                                                </div>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="#"> free computer tranining will be implemented by JMD trust from 2 April 2019 
+                                       </a>                                    
                                 </div>
                             </div>
 
-
-                            <div class="container">
-                                <div class="vc_row wpb_row vc_row-fluid mg-bottom-10">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="course-search simple style01 p-bg">
-                                                    <div class="title-wrap p-font p-bg-dark">
-                                                        <div class="title">
-                                                            <span>JMD</span> <span>Patners</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="keyword-wrap" id="Div1">
-                                                        <div class="owl-carousel" id="owl-demo4">
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-01.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-02.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-03.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-04.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-05.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-06.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-07.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-08.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-09.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-10.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-11.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-12.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-13.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-14.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-15.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-16.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-17.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-18.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-19.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-20.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-21.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-22.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-23.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-24.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-25.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-26.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-27.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-28.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-29.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-30.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-31.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-32.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-33.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-34.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-35.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-36.jpg"></div>
-                                                            </div>
-
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-37.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-38.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-39.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-40.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-41.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-42.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-43.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-44.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-45.jpg"></div>
-                                                            </div>
-
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-46.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-47.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-48.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-49.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-50.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-51.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-52.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-53.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-54.jpg"></div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="associated-img transition-obj"><img src="<?php echo base_url();?>assets/images/associated/img-55.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="#"> Rural industry will be started from 10March 2019 by JMD Trust. 
+                                       </a>                                    
+                                </div>
+                            </div>
+                        <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="<?php echo base_url();?>#">Regording encouraging rural women through JMD Trust. the meeting was hold on 15 March 2019.
+                                    </a>                                    
                                 </div>
                             </div>
 
+                        <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="#"> Planning for the upliftment and owareness of the Rural women's group on 10 February 2019, the JMD Turst's allies continue their efforts. </a>                                    
+                                </div>
+                            </div>
+                                                
+                        <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="<?php echo base_url();?>#" > A good golden apportunity for rural poor-families.</a>                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0px;">
+                                <div class="col-sm-1 col-md-1 col-xs-1" style="padding:0px;">
+                                    <img alt="" src="<?php echo base_url();?>assets/Res_Images/arr.gif" style="height: 8px; width:8px;" />
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-xs-11 text-justify" style="padding:0px;">
+                                    <a href="<?php echo base_url();?>#">The person who wants to cooperate with JMD Trust, Please mail your details to JMd trust. </a>                                    
+                                </div>
+                            </div>               
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                    <div class="modern-ticker mt-round">
+                        <div class="mt-body">
+                            <div class="mt-news">
+                                <marquee scrollamount="2" direction="left" onmouseover="this.stop()" onmouseout="this.start()">                          
+                                        <b style="color: black">First came the faith then came,say loan with me</b>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 panelsrow1">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="panel panel-color nobdr bounceInLeft animated animated" data-wow-delay="0.4s">
+                            <div class="yellowline">
+                            </div>
+                            <div class="yellowlineNew">
+                            </div>
+                            <div class="panel-heading" style="text-align: center">
+                               Quick Link
+                            </div>
+                            <div class="panel-body text-center pnlhght">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-md-5 col-sm-5 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link linkhght"><br />
 
-
-
-
-                           
-
-                            <div class="container">
-                                <div class="vc_row wpb_row vc_row-fluid mg-bottom-40 mg-top-10">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="heading color-dark text-center mg-top-30 mg-bottom-10">
-
-                                                  <!--  <h2 class="heading-color fs-38">JMD Teams</h2>
-                                                    <p class="fs-14">Post in JMD Finance Ltd.</p>
-                                                </div>
-                                                <div class="row">
-                                                    <section class="tz-portfolio-wrapper ">
-                                                        <input type="hidden" name="item_desktop" value="2">
-                                                        <input type="hidden" name="item_desktop_small" value="1">
-                                                        <input type="hidden" name="item_tablet" value="1">
-                                                        <input type="hidden" name="item_mobile" value="1">
-                                                        <div class="tz-portfolio">
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/images/sadasy/jp.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="portfolio-5-Home-05" srcset="<?php echo base_url();?>assets/images/sadasy/jp.jpg 150w, images/portfolio-5-Home-05-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/jp.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                    <div class=" tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=1; ?>">Mr. J.P. Rastogi</a></h4>
-                                                                        <p>Mr. J.P. Rastogi, who has 40 year of experience in the development sector and he is the founder of jmd, </p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=1; ?>" style="right: 0">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/images/sadasy/k.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="portfolio-3-Home-07" srcset="<?php echo base_url();?>assets/images/sadasy/k.jpg 150w, images/portfolio-3-Home-07-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/k.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                    <div class=" tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=2; ?>">Mr. K Sachdeva</a></h4>
-                                                                        <p>Mr. K. Sachdeva joined india civil Accounts services in 2012. He has done BE in machenical Engineering and Master in..... </p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=2; ?>" style="right: 0">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="  tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=3; ?>">Mr. A.K Tyagi</a></h4>
-                                                                        <p>Mr. A.K Tyagi has taken over as Director (Finance) Of JMD,2011. She is the First ever Lady......</p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=3; ?>" style="left: 0">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/images/sadasy/ak.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="portfolio-3-Home-01" srcset="<?php echo base_url();?>assets/images/sadasy/ak.jpg 150w, images/portfolio-3-Home-01-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/ak.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="  tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=4; ?>">Mr. S. B. Aryan</a></h4>
-                                                                        <p>Mr. S.B Aryan is a Charterd Account in practice scince 1975. He is a gold medalist. He is parmanently on the board of JMD Finance Ltd.</p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=4; ?>" style="left: 0">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/images/sadasy/rn.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="portfolio-2-Home-01" srcset="<?php echo base_url();?>assets/images/sadasy/rn.jpg 150w, images/portfolio-2-Home-01-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/rn.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/sadasy/manju.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="port-folio-1-Home-01" srcset="<?php echo base_url();?>assets/images/sadasy/manju.jpg 150w, images/port-folio-1-Home-012-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/manju.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                    <div class=" tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=5; ?>">Mrs. Manju maheshwari</a></h4>
-                                                                        <p>Student Section is a vital part of our college. </p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=5; ?>" style="right: 0">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="element">
-                                                                <div class="tz-portfolio-wapper-style-3">
-                                                                    <div class="tz-image-item tz-portfolio-images">
-                                                                        <img src="<?php echo base_url();?>assets/images/sadasy/nisha.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="portfolio-4-Home-01" srcset="images/sadasy/nisha.jpg 150w, <?php echo base_url();?>assets/images/portfolio-4-Home-01-300x300.jpg 300w, <?php echo base_url();?>assets/images/sadasy/nisha.jpg 370w" sizes="(max-width: 370px) 100vw, 370px" />
-                                                                    </div>
-                                                                    <div class=" tz-portfolio-content-style-3">
-                                                                        <h4><a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=6; ?>">Mr. Nisha Mahima</a></h4>
-                                                                        <p>Latest Images from our college events.Latest Images from our college events..</p>
-                                                                        <span>
-                                                                            <a href="<?php echo base_url();?>index.php/welcome/managementFaculity/<?php echo $i=6; ?>" style="right: 0" target="_blank">
-                                                                                <i class="fa fa-chain"></i>READ MORE
-                                                                            </a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>-->
-                                                        <!--End class tz-portfolio-->
-                                                    </section>
-
-
-
-
-                                                </div>
+                                                 <a style="font-size: 14px; font-weight: bold;" href="<?php echo base_url();?>index.php/welcome/small_industry" target="_blank"><span style="font-size: 18px;"> Small Industry </span></a>
+                                              
                                             </div>
                                         </div>
+                                        <div class="col-md-7 col-sm-7 col-xs-12 implink1" style="padding: 1px;">
+                                            <div class="panel-link1 linkhght"><br />
+                                                <a href="#" ><span style="font-size: 18px;">Business Loan Application Process</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-md-7 col-sm-7 col-xs-12 implink1" style="padding: 1px;">
+                                            <div class="panel-link2 linkhght">
+                                                <br />
+                                                <a href="#" >
+                                                    <span style="font-size: 18px;">Domestic Business</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 col-sm-5 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link3 linkhght"><br />
+                                                
+                                                <a href="#"><span style="font-size: 18px;">Downloads</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-md-5 col-sm-5 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link4 linkhght"><br />
+                                                <a href="#">
+                                                    <span style="font-size: 18px;">Loan Plan</span></a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-7 col-sm-7 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link5 linkhght"><br />
+                                                <a href="<?php echo base_url();?>index.php/welcome/meaning_subsidy" target="_blank"
+                                                    class="text-link"><span style="font-size: 18px;">Meaning Of Subsidy</span></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-md-5 col-sm-5 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link1 linkhght"><br />
+                                                <a href="#">
+                                                    <span style="font-size: 18px;">Business Achiever</span></a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-7 col-sm-7 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link2 linkhght"><br>
+                                                <a href="#">
+                                                    <span style="font-size: 18px;">Latest News</span></a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="fullwidth">
-                                <div class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-flex" style="padding-left: 0px; padding-right: 0px;background-color: #4B2E84;">
-                                    <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="fullwidth">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid icon-same-height" style="padding-left: 0px; padding-right: 0px;">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
-                                                            <div class="vc_column-inner vc_custom_1453518099311">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="iconbox style2 color-light">
-                                                                        <div style="background-color: #ffbc33; color:#ffbc33">
-                                                                            <i class="fa fa-area-chart"></i>
-                                                                        </div><a class="p-font heading-color" href="#" target="_self" title="Our Mission">Our Vision</a>
-                                                                        <p style="margin: 0;">To emerge as one of the world's leading institute through continuing to the highest academic standards</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_column vc_column_container vc_col-sm-6">
-                                        <div class="vc_column-inner">
-                                            <div class="wpb_wrapper">
-                                                <div class="fullwidth">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid icon-same-height" style="padding-left: 0px; padding-right: 0px;">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
-                                                            <div class="vc_column-inner vc_custom_1453518081559">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="iconbox style2 color-light">
-                                                                        <div style="background-color: #ffbc33; color:#ffbc33">
-                                                                            <i class="fa fa-area-chart"></i>
-                                                                        </div><a class="p-font heading-color" href="#" target="_self" title="Our Mission">Our Mission</a>
-                                                                        <p style="margin: 0;">To build & nurture a new generation of well-rounded professionals who can work as positive change agents in the new millennium.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="panel panel-color nobdr fadeInUpBig animated animated" data-wow-delay="0.4s">
+                            <div class="yellowline">
+                            </div>
+                            <div class="yellowlineNew">
+                            </div>
+                            <div class="panel-heading" style="text-align: center">
+                                Process
+                                
+                            </div>
+                            <div class="panel-body pnlhght">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <span id="Timer1" style="visibility:hidden;display:none;"></span>
+                                        <div id="UpdatePanel1">
+	                                     <img src="<?php echo base_url();?>assets/Res_Images/process.jpeg" alt="" style="width: 100%;" />
+                                              
+                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
-
-                            <div class="fullwidth" style="background-image:url(images/background_main.jpg);">
-                                <div class="container">
-                                    <div class="vc_row wpb_row vc_row-fluid mg-top-40 ">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="heading color-dark text-center">
-
-                                                        <h2 class="heading-color fs-38">LATEST UPDATES</h2>
-                                                        <p class="fs-14">ALL ABOUT JMD UPDATES</p>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-xs-12">
-                                                            <div class="gkPage">
-
-
-                                                                <div id="gkHeaderModules" class="gkPage">
-                                                                    <div id="gkHeaderLeft">
-                                                                        <div class="box ">
-                                                                            <div class="content">
-                                                                                <div class="gkNspPM gkNspPM-EventsList fspl active" data-cols="3">
-
-
-                                                                                    <div class="gkEvent home_news gkIsPreloader">
-
-                                                                                        <div class="community color-1">
-                                                                                            <h3>Latest News</h3>
-
-                                                                                            <div class="info-block">
-                                                                                                <div>
-                                                                                                 <marquee class='updates' behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="font-size:12px; color:black; height:185px;">
-																						<ul class="trainer-list overflow style-2  news">
-                                                                                               Welcome To JMD Finance Ltd
-                                                                                                    </ul>
-                                                                                                </marquee>
-                                                                                                    
-                                                                                                </div>
-                                                                                            </div>
-
-                                                                                        </div>
-
-                                                                                    </div>
-
-                                                                                    <div class="gkEvent home_events gkIsPreloader">
-
-                                                                                        <div class="community color-1">
-                                                                                            <h3>Upcoming Events</h3>
-
-                                                                                            <div class="info-block">
-                                                                                                <marquee class='updates' behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="font-size:12px; color:black; height:185px;">
-																						<ul class="trainer-list overflow style-2  news">
-                                                                                               Welcome To JMD Finance Ltd
-                                                                                                    </ul>
-                                                                                                </marquee>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </div>
-
-                                                                                    <div class="gkEvent home_news gkIsPreloader">
-
-                                                                                        <div class="community color-1">
-                                                                                            <h3>Press Releases</h3>
-                                                                                            <div class="info-block">
-                                                                                                <div style="font-size:12px; color:#fff; height:226px; " class='pressreleases overflow style-2'>
-<marquee class='updates' behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();" style="font-size:12px; color:black; height:185px;">
-																						<ul class="trainer-list overflow style-2  news">
-                                                                                               Welcome To JMD Finance Ltd
-                                                                                                    </ul>
-                                                                                                </marquee>
-
-
-
-
-
-
-
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </div>
-
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end col -->
-                                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="panel panel-color nobdr bounceInRight animated animated" data-wow-delay="0.4s">
+                            <div class="yellowline">
+                            </div>
+                            <div class="yellowlineNew">
+                            </div>
+                            <div class="panel-heading" style="text-align: center">Important Link (JMD)
+                            </div>
+                            <div class="panel-body pnlhght">
+                                <div class="hidden-xs row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link linkhght1" style="border-top-right-radius: 20px; text-align: center;">
+                                                <a href="<?php echo base_url();?>index.php/welcome/jobapply" class="text-link" style="line-height: 50px;"
+                                                    >
+                                                    <span style="font-size: 18px;">Apply For a Job</span></a>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 " style="padding: 1px;">
+                                            <div class="panel-link1 linkhght1" style="text-align: center;">
+                                                <a href="<?php echo base_url();?>index.php/welcome/startup_business_idea" class="text-link" target="_blank" style="line-height: 50px;"
+                                                    ><span style="font-size: 18px;">Startup Business Ideas</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 implink" style="padding: 1px;">
+                                            <div class="panel-link2 linkhght1" style="text-align: center;">
+                                                <a href="#" class="text-link" style="line-height: 50px;"
+                                                    ><span style="font-size: 18px;">Marketing Online Business</span></a>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 implink1" style="padding: 1px;">
+                                            <div class="panel-link3 linkhght1" style="border-bottom-left-radius: 20px; text-align: center;"><br>
+                                                <a href="<?php echo base_url();?>index.php/welcome/business_format" target="_blank" class="text-link" style="line-height: 25px;"
+                                                    ><span style="font-size: 18px;">Business Format</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -603,7 +327,33 @@ Bihar</a></li>
                     </div>
                 </div>
             </div>
-        </main>
-    </div>
-    <!-- Close Wrapper Content -->
-<?php $this->load->view("footer");?>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" style="margin-bottom: 15px;">
+                    <div class="modern-ticker mt-round">
+                        <div class="mt-body">
+                            <div class="mt-news">
+                                <marquee scrollamount="2" direction="left" onmouseover="this.stop()" onmouseout="this.start()">                          
+                                        </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.UI._Timer, {"enabled":true,"interval":30000,"uniqueID":"Timer1"}, null, null, $get("Timer1"));
+});
+//]]>
+</script>
+</form>
+<?php $this->load->view('footer');?>
+</body>
+</html>

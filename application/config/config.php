@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/jmdf.co.in/';
+$config['base_url'] = 'http://jmdf.co.in/';
 
 /*
 |--------------------------------------------------------------------------
