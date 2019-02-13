@@ -12,7 +12,7 @@
      box-shadow: 5px 5px 40px 5px #888888;">
 <div class="container" style="background-color: white;padding: 23px;">
 		
-<h3>How to Make Cake Gel – Small Manufacturing Project</h3>
+<h3>How to Make Cake Gel–small Manufacturing Project</h3>
 Cake Gel is mainly used by the cake manufacturer in making cakes. It is a cake improver, comprised of emulsifiers and humectants, which greatly improves volume through increased aeration and provides a more uniform crumb structure. It also improves softness in a cake.<br><br>
 Additionally, cake gel increases stability and reduces variances that may be caused due to changing flour quantity and changing process parameters.<br><br>
 If you are looking forward to start a low-cost small home-based manufacturing business in the  Food industry, cake gel is a product you can consider. a small
