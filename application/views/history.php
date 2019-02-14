@@ -1,3 +1,9 @@
+<?php $this->load->view('head');?>
+<?php $this->load->view('header');?>
+<?php $this->load->view('navbar');?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,12 +11,12 @@
 </head>
 <body style="
     background-color: #e2d8da;
-    margin-left: 105px;
+  /*  margin-left: 105px;
     margin-right: 105px;
-    margin-top: 61px;
+    margin-top: 61px;*/
      box-shadow: 5px 5px 40px 5px #888888;">
 
-<div class="container" style="background-color: #f5ecec;padding: 23px;">
+<div class="container" style="background-color: white;padding: 23px;">
 <b>Due to priority given to women members by self-help groups</b><br><br>
 In our country, many NGOs and Micro Finance Institutions function with the aim of reducing poverty by setting up and providing self-help groups. Apart from making women self-reliant, these groups are also playing a role in the development of overall awareness, which is taking their social, economic and personal empowerment. However, the lofty goal of micro finance is poverty alleviation, but the goal of empowering women as its important supplement is also being fulfilled. The following reasons for the active presence of women in the micro finance sector are:<br><br>
 The contribution of women in any economy is not often noticed, which is also enclosed in the Indian economy. This is the reason that micro finance institutions give credit to women and their development. In this way Micro Finance Institutions are playing an important role in the creation, development and promotion of women enterprises by giving loans to women. There has been an increase in women's autonomy, independence, self-reliance, self-employment, confidence and social status.<br><br>
@@ -30,5 +36,8 @@ The ability to keep their point in the matter of collective decision- Studies ha
 
 
 </div>
+<br><br>
+<?php $this->load->view('footer');?>
+
 </body>
 </html>

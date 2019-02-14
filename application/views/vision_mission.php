@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<?php $this->load->view('head');?>
+<?php $this->load->view('header');?>
+<?php $this->load->view('navbar');?>
+
+
 <html>
 <head>
 	<title></title>
@@ -6,9 +12,9 @@
 </head>
 <body style="
     background-color: #e2d8da;
-    margin-left: 105px;
+   /* margin-left: 105px;
     margin-right: 105px;
-    margin-top: 61px;
+    margin-top: 61px;*/
      box-shadow: 5px 5px 40px 5px #888888;">
 <div class="container" style="background-color: white;padding: 23px;">
 
@@ -29,5 +35,8 @@ Showing our work and behavior of each team member, our values create strong prin
 <br><br>
 
 </div>
+<br><br>
+<?php $this->load->view('footer');?>
+
 </body>
 </html>

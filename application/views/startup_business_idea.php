@@ -1,13 +1,19 @@
 <!DOCTYPE html>
+<?php $this->load->view('head');?>
+<?php $this->load->view('header');?>
+<?php $this->load->view('navbar');?>
+
+
+
 <html>
 <head>
 	<title></title>
 </head>
 <body style="
     background-color: #e2d8da;
-    margin-left: 105px;
+    /*margin-left: 105px;
     margin-right: 105px;
-    margin-top: 61px;
+    margin-top: 61px;*/
      box-shadow: 5px 5px 40px 5px #888888;">
 	<div class="container" style="background-color:white;padding: 23px;">
 		
@@ -59,6 +65,9 @@ So far we have seen the 10 top startup business ideas which would surely bring y
 However, if you need any guidance or more of the best business startup ideas then you can contact us at Value Coders. We are a leading It strategy and consulting company in India since 2004 offering a blend of data mining, technology knowledge, expert software testing services analytical tools to help startups in their business growth. You can also hire developers, from us for all your software development needs.<br><br>
 
 
-</div>
+</div><br><br>
+<?php $this->load->view('footer');?>
+
+</body>
 </body>
 </html>

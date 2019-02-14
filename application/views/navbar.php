@@ -15,12 +15,12 @@
                             </li>
                             <li class="topfirst">
                                 <input type="hidden" name="Home" id="menu1" value="1">
-                                <a id="menu1_url" href="http://localhost/JMDF/" target="_self"><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;</span></a>
+                                <a id="menu1_url" href="<?php echo base_url();?>" target="_self"><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;</span></a>
                                 
                             </li>
                             <li class="topmenu">
                                 <input type="hidden" name="Menu2" id="Menu2" value="2">
-                                <a id="menu2_url" href="http://localhost/JMDF/" target="_self"><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;About us&nbsp;</span></a>
+                                <a id="menu2_url" href="<?php echo base_url();?>" target="_self"><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;About us&nbsp;</span></a>
                                 <ul>
                                     <li class="subfirst">
                                         <input type="hidden" name="Menu2_1" id="Hidden1" value="6">

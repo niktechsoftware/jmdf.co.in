@@ -1,17 +1,22 @@
+<?php $this->load->view('head');?>
+<?php $this->load->view('header');?>
+<?php $this->load->view('navbar');?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 
 </head>
-<body style="
+ <body style="
     background-color: #e2d8da;
-    margin-left: 105px;
+   /* margin-left: 105px;
     margin-right: 105px;
-    margin-top: 61px;
+    margin-top: 61px;*/
      box-shadow: 5px 5px 40px 5px #888888;">
 <div class="container" style="background-color: white;padding: 23px;">
-		
 <h3>How to Make Cake Gel–small Manufacturing Project</h3>
 Cake Gel is mainly used by the cake manufacturer in making cakes. It is a cake improver, comprised of emulsifiers and humectants, which greatly improves volume through increased aeration and provides a more uniform crumb structure. It also improves softness in a cake.<br><br>
 Additionally, cake gel increases stability and reduces variances that may be caused due to changing flour quantity and changing process parameters.<br><br>
@@ -41,5 +46,9 @@ The actual cost of the cake gel making project may deviate on change of any of t
 </span>
 
 </div>
+<br><br>
+<?php $this->load->view('footer');?>
+
 </body>
+
 </html>
