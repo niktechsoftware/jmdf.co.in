@@ -4,7 +4,7 @@
         <div class="row" style="background-image: url(<?php echo base_url();?>assets/Res_Images/headerlogo2.png) ">
                     <div class="col-md-7">
                         <div class="col-md-4">
-                            <h5 style="color:white; margin-left:90px;">Jai Mata Di Finance LTD</h5>
+                            <h5 style="color:white; margin-left:80px;">Jai Mata Di Finance LTD</h5>
                                 <h2>
                                     <img src="<?php echo base_url();?>assets/Res_Images/rn.jpg">
                                 </h2>
