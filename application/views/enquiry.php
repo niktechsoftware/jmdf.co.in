@@ -3,26 +3,10 @@
 <?php $this->load->view('header');?>
 <?php $this->load->view('navbar');?>
 <div class="container">
-
-            <div class="row">
-             <div class="col-xs-12">
-
-             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="border:2px solid red;">
-
-             <div id="leftmenu">
-<ul style="list-style: none;">
-   <li class="active"><h2 class="find-course__title"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;JMD Finance Ltd.</h2></li>
-
-                <li><a href="#" ><span>JMD Plan</span></a></li>
-                <li><a href="#"><span>ANPS Plan</span></a></li>
-                <li><a href="#"><span>Carrer Plan</span></a></li>
-                <li><a href="#"><span>RDFD Plan</span></a></li>
-                
- </ul>
-</div>
-             <div>
-             </div>
-             </div>
+                    <h3><center>This Form can not be submitted</center></h3>
+            <div class="col-lg-2"></div>
+            
+              
              <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 ineerbox" style="border:2px solid green;">
              
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="float:right;">

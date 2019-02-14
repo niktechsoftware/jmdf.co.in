@@ -7,24 +7,8 @@
 <div class="container">
 
                 <div class="row">
-                    <div class="col-xs-12">
-
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="border:2px solid red;">
-
-                            <div id="leftmenu">
-                                <ul>
-                                    <li class="active"><h2 class="find-course__title"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;Form Instruction</h2></li>
-									<p><strong>1</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;फॉर्म भरने से यह निर्यण अवश्य कर ले कि इस फॉर्म का चालान कौन से ब्रांच में आपको जमा करना सरल रहेगा | उसके बाद ही आप उस ब्रांच को चुने | क्योंकि फॉर्म उसी ब्रांच पे स्वीकृत किया जायेगा |
-									</p>
-<p><strong>2</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;फॉर्म फी 7०० रुपये फॉर्म के साथ जमा करे 
-									</p>
-									<p style="color:blue">संपर्क करे :-7295869574,9918333831</p>
-                                   
-                                </ul>
-                            </div>
-                            <div>
-                            </div>
-                        </div>
+                    <div class="col-lg-2"></div>
+                  <div class="col-lg-8"><h4 style="margin-left:120px;">This Form can not be submitted</h4>
                          <form method="post" action="http://jmdf.co.in/index.php/registration/saveRegistration" enctype="multipart/form-data">
                     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 ineerbox" style="border:2px solid green;">
 
@@ -283,6 +267,7 @@
                         </div>
                         </form>
                     </div>
+                    <div class="col-lg-2"></div>
                 </div>
                 <!-- end row -->
                 <!-- end section_mod-a__inner -->
