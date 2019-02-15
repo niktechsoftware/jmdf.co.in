@@ -32,7 +32,7 @@
                                     </li>
                                     <li class="">
                                         <input type="hidden" name="Menu2_3" id="Hidden3" value="8">
-                                        <a id="A3" href="<?php echo base_url();?>" target="_self" style="font-size: 16px;">JMD from Board</a>
+                                        <a id="A3" href="<?php echo base_url();?>index.php/welcome/jmdboard" target="_self" style="font-size: 16px;">JMD from Board</a>
                                     </li>
                                     <li class="">
                                         <input type="hidden" name="Menu2_4" id="Hidden4" value="177">
@@ -100,7 +100,7 @@
                                 <ul>
                                     <li class="subfirst">
                                         <input type="hidden" name="Menu5_1" id="Hidden9" value="6">
-                                        <a id="A9" href="<?php echo base_url();?>" target="_self" style="font-size: 16px;">Business Loan</a>
+                                        <a id="A9" href="<?php echo base_url();?>index.php/welcome/businessloan" target="_self" style="font-size: 16px;">Business Loan</a>
                                     </li>
                                     <li class="">
                                         <input type="hidden" name="Menu5_2" id="Hidden10" value="7">

@@ -16,6 +16,15 @@ class Welcome extends CI_Controller {
 	{
 	    $this->load->view('jobapply');
 	}
+	public function businessloan()
+	{
+		$this->load->view('bsnloan');
+	}
+
+	public function jmdboard()
+	{
+		$this->load->view('jmdboard');
+	}
 	public function enquiryform()
 	{
 	    $this->load->view('enquiry');

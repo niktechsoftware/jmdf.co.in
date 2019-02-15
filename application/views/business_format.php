@@ -3,11 +3,14 @@
 <head>
 	<title></title>
 </head>
+<?php $this->load->view('head');?>
+<?php $this->load->view('header');?>
+<?php $this->load->view('navbar');?>
 <body style="
     background-color: #e2d8da;
-    margin-left: 105px;
+   /* margin-left: 105px;
     margin-right: 105px;
-    margin-top: 61px;
+    margin-top: 61px;*/
      box-shadow: 5px 5px 40px 5px #888888;">
 <div class="container" style="background-color: white;padding: 23px;">
 
@@ -171,5 +174,9 @@ Small advertisements in Local television channel, newspaper, event or wedding ma
 You can communicate with your clients about your new special and design arrival through the blog. Register with an online marketplace to make doorstep delivery and nationwide business. Use social media carefully. Donating flowers for charity or to community events is a wonderful promotional tool for florist business.<br><br>
 Starting and running a flower business demands a lot of dedication, hard work, a flair for creativity and a true love for flowers. Hope this guide will inspire you in starting your own floral business.<br><br>
 </div>
+<br><br>
+<?php $this->load->view('footer');?>
+
+
 </body>
 </html>
