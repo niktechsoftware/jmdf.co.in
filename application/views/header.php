@@ -2,12 +2,12 @@
         </div>
 <div class="container-fluid" style="background-color: #962404c9;">
         <div class="row" style="background-image: url(<?php echo base_url();?>assets/Res_Images/headerlogo2.png) ">
-                    <div class="col-md-7">
-                        <div class="col-md-4">
-                                                           <h2>
-                                    <img src="<?php echo base_url();?>assets/Res_Images/rn.jpg">
-                                </h2>
-                        </div>
+       <div class="col-md-7" style="margin-top:15px;">
+         <div class="col-md-4">
+             <img src="<?php echo base_url();?>assets/Res_Images/jmd2.jpg" style="margin-left:40px">
+                                  </div>
+           <div class="col-md-3"><img src="<?php echo base_url();?>assets/Res_Images/jmd.jpg" style="margin-left:-90px">
+           </div>
                          <!-- <div class="col-md-8">
                         <br><br><br>
                          <span style="font-size: 20px;color: white;">Jai Mata Di Finance Ltd</span>
@@ -26,6 +26,7 @@
                         </div>
                     </div>
                      </div>
+
                     <br>
 
                     <div class="col-md-3" style="float: right;"><br>
