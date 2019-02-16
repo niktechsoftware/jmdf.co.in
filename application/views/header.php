@@ -6,7 +6,7 @@
          <div class="col-md-4">
              <img src="<?php echo base_url();?>assets/Res_Images/jmd2.jpg" style="margin-left:40px">
                                   </div>
-           <div class="col-md-3"><img src="<?php echo base_url();?>assets/Res_Images/jmd.jpg" style="margin-left:-85px">
+           <div class="col-md-3"><img src="<?php echo base_url();?>assets/Res_Images/jmd.jpg" style="margin-left:-30px">
                
            </div>
                          <!-- <div class="col-md-8">
