@@ -197,7 +197,7 @@ function __doPostBack(eventTarget, eventArgument) {
                                         </div>
                                         <div class="col-md-7 col-sm-7 col-xs-12 implink1" style="padding: 1px;">
                                             <div class="panel-link1 linkhght"><br />
-                                                <a href="#" ><span style="font-size: 18px;">Business Loan Application Process</span></a>
+                                                <a href="<?php echo base_url();?>index.php/welcome/businessapp" ><span style="font-size: 18px;">Business Loan Application Process</span></a>
                                             </div>
                                         </div>
                                     </div>

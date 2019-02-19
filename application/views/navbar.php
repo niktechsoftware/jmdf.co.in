@@ -24,7 +24,7 @@
                                 <ul>
                                     <li class="subfirst">
                                         <input type="hidden" name="Menu2_1" id="Hidden1" value="6">
-                                        <a id="A1" href="<?php echo base_url();?>" target="_self" style="font-size: 16px;">Overview</a>
+                                        <a id="A1" href="<?php echo base_url();?>index.php/welcome/overview" target="_self" style="font-size: 16px;">Overview</a>
                                     </li>
                                     <li class="">
                                         <input type="hidden" name="Menu2_2" id="Hidden2" value="7">
@@ -131,7 +131,7 @@
                                     </li>
                                     <li class="subfirst">
                                         <input type="hidden" name="Menu7_1" id="Hidden17" value="6">
-                                        <a id="A17" href="<?php echo base_url();?>" target="_self" style="font-size: 16px;">Terms of Use</a>
+                                        <a id="A17" href="<?php echo base_url();?>index.php/welcome/termofuse" target="_self" style="font-size: 16px;">Terms of Use</a>
                                     </li>
                                 </ul>
                             </li>

@@ -20,10 +20,25 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('bsnloan');
 	}
+	public function businessapp()
+	{
+		$this->load->view('businessapp');
+
+	}
+	public function termofuse()
+	{
+		$this->load->view('termofuse');
+
+	}
+
 
 	public function jmdboard()
 	{
 		$this->load->view('jmdboard');
+	}
+	public function overview()
+	{
+		$this->load->view('overview');
 	}
 	public function enquiryform()
 	{
